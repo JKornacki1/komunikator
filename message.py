@@ -5,5 +5,5 @@ class Message:
         self.from_user = from_user
         self.to_user = to_user
         self.text = text
-        self.timestamp = timestamp
+        self.timestamp = datetime.now().timestamp()
 
